@@ -44,9 +44,7 @@ public class AyatanaCompatibility.Indicator : Wingpanel.Indicator {
             name_hint = current_time.hash ().to_string ();
         }
 
-        Object (code_name: "%s%s".printf ("ayatana-", name_hint),
-                display_name: "%s%s".printf ("ayatana-", name_hint),
-                description: _("Ayatana compatibility indicator"));
+        Object (code_name: "%s%s".printf ("ayatana-", name_hint));
         this.entry = entry;
         this.indicator = indicator;
         this.parent_object = obj;

@@ -24,9 +24,7 @@ public class AyatanaCompatibility.MetaIndicator : Wingpanel.Indicator {
     private bool wingpanel_defer_waiting = false;
 
     public MetaIndicator () {
-        Object (code_name: "ayatana_compatibility",
-                display_name: _("Ayatana Compatibility"),
-                description:_("Ayatana Compatibility Meta Indicator"));
+        Object (code_name: "ayatana_compatibility");
 
         deferred_indicators = new Gee.LinkedList<AyatanaCompatibility.Indicator>();
 

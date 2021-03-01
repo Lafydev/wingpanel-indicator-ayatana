@@ -19,11 +19,11 @@ sources = [
 dependencies = {
     'granite':    dependency('granite'),
     'indicator3': dependency('indicator3-0.4'),
-    'wingpanel2': dependency('wingpanel-2.0')
+    'wingpanel3': dependency('wingpanel')
 }
 
 indicator_name = 'ayatana'
-indicator_dir  = dependencies['wingpanel2'].get_pkgconfig_variable('indicatorsdir')
+indicator_dir  = dependencies['wingpanel3'].get_pkgconfig_variable('indicatorsdir')
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Bindings:
