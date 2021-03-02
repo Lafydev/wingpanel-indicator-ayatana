@@ -5,6 +5,7 @@ debian/.debhelper/
 debian/com.github.lafydev.wingpanel-indicator-ayatana.substvars
 debian/com.github.lafydev.wingpanel-indicator-ayatana/
 debian/debhelper-build-stamp
+debian/files
 obj-*/
 
 # IDE
