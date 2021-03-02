@@ -1,48 +1,29 @@
-Format: https://dep.debian.net/deps/dep5
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: wingpanel-indicator-ayatana
 Source: https://github.com/lafydev/wingpanel-indicator-ayatana
 
-Files: src/* vapi/* debian/*
-Licence: GPL-3.0+
+Files: *
+Copyright: 2015 Djax <parnold@gmx.de>
+License: GPL-3.0+
 
-This work was maintained by many contributors.
+Files: debian/*
+Copyright: 2015 Cody Garver <cody@elementary.io>
+    2021 Sean Davis <smd.seandavis@gmail.com>
+License: GPL-3.0+
 
-It was initially packaged for Debian by:
-
-    Cody Garver <cody@elementary.io> on Sat, 20 Jun 2015 20:47:26 -0500
-
-It was downloaded from:
-
-    https://launchpad.net/wingpanel-indicator-ayatana
-
-Upstream Author(s):
-
-    Djax <parnold@gmx.de>
-
-Copyright:
-
-    Copyright (C) 2015 Djax <parnold@gmx.de>
-
-License:
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This package is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program. If not, see <http://www.gnu.org/licenses/>.
-
-On Debian systems, the complete text of the GNU General
-Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
-
-The Debian packaging is:
-
-    Copyright (C) 2015 Cody Garver <cody@elementary.io>
-
-and is licensed under the GPL version 3, see above.
+License: GPL-3.0+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".

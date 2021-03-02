@@ -1,3 +1,3 @@
-com.github.lafydev.wingpanel-indicator-ayatana-dbgsym_2.0ubuntu6_amd64.ddeb debug optional
-com.github.lafydev.wingpanel-indicator-ayatana_2.0ubuntu6_amd64.buildinfo x11 optional
-com.github.lafydev.wingpanel-indicator-ayatana_2.0ubuntu6_amd64.deb x11 optional
+com.github.lafydev.wingpanel-indicator-ayatana-dbgsym_2.0ubuntu7_amd64.ddeb debug optional automatic=yes
+com.github.lafydev.wingpanel-indicator-ayatana_2.0ubuntu7_amd64.buildinfo x11 optional
+com.github.lafydev.wingpanel-indicator-ayatana_2.0ubuntu7_amd64.deb x11 optional
