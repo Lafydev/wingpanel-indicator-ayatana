@@ -3,7 +3,8 @@ Upstream-Name: wingpanel-indicator-ayatana
 Source: https://github.com/lafydev/wingpanel-indicator-ayatana
 
 Files: *
-Copyright: 2015 Djax <parnold@gmx.de>
+Copyright: 2015-2016 Djax <parnold@gmx.de>
+    2020 Lafydev <laurencef15@gmail.com>
 License: GPL-3.0+
 
 Files: debian/*
