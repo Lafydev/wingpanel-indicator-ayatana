@@ -221,7 +221,7 @@ public class AyatanaCompatibility.Indicator : Wingpanel.Indicator {
     private Gtk.Widget? convert_menu_widget (Gtk.Widget item) {
         /* separator are GTK.SeparatorMenuItem, return a separator */
         if (item is Gtk.SeparatorMenuItem) {
-            var separator =  new Wingpanel.Widgets.Separator ();
+            var separator =  new Gtk.Separator (Gtk.Orientation.HORIZONTAL);
 
             connect_signals (item, separator);
 			group_radio = null; 
@@ -263,12 +263,11 @@ public class AyatanaCompatibility.Indicator : Wingpanel.Indicator {
         }
 
         if (item_type == ATK_CHECKBOX) {
-            var button = new Wingpanel.Widgets.Switch (label, active);
-            // b=bool
-            button.get_switch ().state_set.connect ((b) => {
-                (item as Gtk.CheckMenuItem).set_active (b);
+            var button = new Granite.SwitchModelButton (label);
+            button.set_active(active);
+            button.toggled.connect (() => {
+                (item as Gtk.CheckMenuItem).set_active (button.get_active ());
                 close ();
-                return false;
             });
             button.set_state_flags(state,false);
             
